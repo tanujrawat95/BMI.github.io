@@ -12,7 +12,7 @@ if(bmi>=18 && bmi<=22)
   document.getElementById("result").innerHTML ="Your bmi is "+ bmi +". You are fit. Keep it that way ";
 
 }
-if(bmi>24)
+if(bmi>22)
 {
   document.getElementById("result").innerHTML ="Your bmi is "+ bmi +". You need to eat less or you end uo being a lazy ass. ";
 
