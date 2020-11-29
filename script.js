@@ -5,7 +5,7 @@ function Calculate() {
 bmi=bmi.toFixed(2);
 if(bmi<18)
 {
-  document.getElementById("result").innerHTML ="Your bmi is "+ bmi +". You need to eat more you thinass. ";
+  document.getElementById("result").innerHTML ="Your bmi is "+ bmi +". You are Underweight. ";
 }
 if(bmi>=18 && bmi<=22)
 {
@@ -14,7 +14,7 @@ if(bmi>=18 && bmi<=22)
 }
 if(bmi>22)
 {
-  document.getElementById("result").innerHTML ="Your bmi is "+ bmi +". You need to eat less or you end uo being a lazy ass. ";
+  document.getElementById("result").innerHTML ="Your bmi is "+ bmi +". You need to eat less and exercise more. ";
 
 }
 }
